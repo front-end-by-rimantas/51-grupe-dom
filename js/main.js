@@ -61,16 +61,3 @@ console.log(text1.trim() === text2);
 for (const titleDOM of sectionTitleDOM) {
     titleDOM.textContent = capitalize(titleDOM.textContent);
 }
-
-
-/**
- * Dvieju skaiciu suma.
- * @param {number} a Pirmasis demuo.
- * @param {number} b Antrasis demuo.
- * @returns {number} Suma.
- */
-function sum(a, b) {
-    return a + b;
-}
-
-sum(7, 5);
