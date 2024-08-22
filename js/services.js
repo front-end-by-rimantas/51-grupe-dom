@@ -14,3 +14,6 @@ if (sectionListDOM.length === 0) {
 
     sectionDOM.innerHTML = listHTML;
 }
+
+const emptySectionDOM = sectionListDOM[1];
+emptySectionDOM.innerHTML = '<div style="color: green; font-size: 30px;">Labas rytas, Lietuva!</div>';
