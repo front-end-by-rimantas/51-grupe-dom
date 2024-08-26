@@ -1,3 +1,6 @@
+import { header } from "./header.js";
+header('services');
+
 const sectionListDOM = document.getElementsByTagName('section');
 
 if (sectionListDOM.length === 0) {
