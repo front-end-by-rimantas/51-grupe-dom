@@ -1,3 +1,7 @@
+/**
+ * Sugeneruoja <header> elemento HTML ir įstato į DOM.
+ * @param {string} currentHref Norimos pažymėti nuorodos `href` reikšmė
+ */
 export function header(currentHref) {
     const navData = [
         {
@@ -15,6 +19,10 @@ export function header(currentHref) {
         {
             href: 'basketball',
             text: 'Krepšinis',
+        },
+        {
+            href: 'snake',
+            text: 'Gyvatėlė',
         },
     ];
 
